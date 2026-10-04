@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- viewport-fit=cover: draw under the notch/home indicator; UI uses safe-area insets. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- iOS Home Screen web app -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Zombies" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png" />
+    <title>Zombies</title>
+    <script type="module" crossorigin src="./assets/index-DssaRV7P.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/observable.pure-B5E8yEYx.js">
+    <link rel="modulepreload" crossorigin href="./assets/internalTexture--UEgW48C.js">
+    <link rel="modulepreload" crossorigin href="./assets/engineStore-e38OvQA7.js">
+    <link rel="modulepreload" crossorigin href="./assets/logger-CuBYPcDK.js">
+    <link rel="modulepreload" crossorigin href="./assets/shaderStore-D-XQlhUT.js">
+    <link rel="modulepreload" crossorigin href="./assets/precisionDate-CfCevjl-.js">
+    <link rel="modulepreload" crossorigin href="./assets/timingTools-BVXVNp4w.js">
+    <link rel="modulepreload" crossorigin href="./assets/performanceConfigurator-UtxC_Odd.js">
+    <link rel="modulepreload" crossorigin href="./assets/thinEngine.pure-6EYX9WhP.js">
+    <link rel="modulepreload" crossorigin href="./assets/math.scalar.functions-Bcxiuh2E.js">
+    <link rel="modulepreload" crossorigin href="./assets/typeStore-Cu_sj2zM.js">
+    <link rel="modulepreload" crossorigin href="./assets/math.vector.pure-DHMyk8WC.js">
+    <link rel="modulepreload" crossorigin href="./assets/math.color.pure-3dDyD4Mc.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-8Fgz9u4-.css">
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="game-canvas" aria-label="Game view"></canvas>
+      <!-- Full-screen touch/mouse surface: all control routing happens here (touch-action: none). -->
+      <div id="input-surface"></div>
+      <div id="ui-root"></div>
+    </div>
+    <div id="rotate-overlay" role="alert" aria-live="assertive">
+      <div class="rotate__icon" aria-hidden="true"></div>
+      <p>Rotate your device to landscape</p>
+    </div>
+    <noscript><p class="noscript">This game requires JavaScript.</p></noscript>
+  </body>
+</html>

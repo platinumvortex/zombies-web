@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Zombies",
-  "short_name": "Zombies",
-  "description": "Round-based co-op zombie survival FPS for 1-4 players on the same Wi-Fi.",
+  "name": "Nacht der Vibecodierten",
+  "short_name": "Vibenacht",
+  "description": "Round-based zombie survival FPS, solo or with a friend.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

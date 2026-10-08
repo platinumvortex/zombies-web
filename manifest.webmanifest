@@ -1,7 +1,7 @@
 {
   "id": "./",
-  "name": "Nacht der Vibecodierten",
-  "short_name": "Vibenacht",
+  "name": "Totenwacht",
+  "short_name": "Totenwacht",
   "description": "Round-based zombie survival FPS, solo or with a friend.",
   "start_url": "./",
   "scope": "./",
